@@ -12,9 +12,16 @@ A complete implementation of a singly linked list in JavaScript using ES6 module
 ## Usage
 
 ```javascript
-import LinkedList from './linkedList.js';
-
+// example uses class syntax - adjust as necessary
 const list = new LinkedList();
-list.append("A");
-list.prepend("B");
-console.log(list.toString()); // ( B ) -> ( A ) -> null
+
+list.append("dog");
+list.append("cat");
+list.append("parrot");
+list.append("hamster");
+list.append("snake");
+list.append("turtle");
+
+Add console.log(list.toString()); to the end of the file and run it.
+
+( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> null
